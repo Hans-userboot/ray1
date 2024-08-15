@@ -41,7 +41,7 @@ FORCE_MESSAGE = os.environ.get(
 )
 
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5178772086 5575087342 6039932222").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5178772086 5575087342 6039932222 7150384119").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
     
